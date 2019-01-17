@@ -26,228 +26,243 @@
 # This script only works with Millard muscles.
 
 import math # for pi
-import org.opensim.utils as utils
-import string
+import opensim as osim
 
-# COMBINE OSIM MODELS
+#PYTHON GUI CODE SECTION
 #--------------------
-#
-# Takes original millard model as the base and replaces properties in both
-# models with properties taken from loaded user models.
 
-baseModel = getCurrentModel()
-print(baseModel.getName())
+from tkinter import *
 
-if not baseModel:
-    print("ERROR: Need to load base Tug_of_War_Millard.osim model first.")
-else:
-    print("Loaded model %s." % baseModel.getName())	
+#ALL units are SI
 
-# Copy the base model to adjust
-newModel = modeling.Model(baseModel)
-newModel.initSystem();
+newModel = osim.Model("C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim")
+newMuscleBase = newModel.getMuscles().get(0)
+newMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newMuscleBase)
+initState = newModel.initSystem()
 
-# Load user right muscle
-rightModelPath = utils.FileUtils.getInstance().browseForFilename(".osim",
-    "Select the controls XML file.", 1)
-rightModel = modeling.Model(rightModelPath)
-initState = rightModel.initSystem();
 
-# Grab user for the right muscle (assumed naming convention is <user>_<file>.<type>)
-rightModelFname = string.split( rightModelPath, '\\' )[-1];
-rightModelUser = string.split( rightModelFname, '_' )[0];
-print( rightModelUser )
+root = Tk()
 
-# User should have muscle in the LEFT
-userRightMuscleBase = rightModel.getMuscles().get(1)
-userRightMuscle = modeling.Millard2012EquilibriumMuscle.safeDownCast(userRightMuscleBase)
-print(userRightMuscle.getName())
+alpha = DoubleVar()
+act = DoubleVar()
+deAct = DoubleVar()
+ut = DoubleVar()
+Ao = DoubleVar()
+vm = 1e-4
+fo = DoubleVar()
+lo = DoubleVar()
+ls = DoubleVar()
+lMT = float(ls.get())+ float(lo.get())
+vMax = DoubleVar()
 
-# Get new right muscle to copy over parameters
-rightMuscleBase = newModel.getMuscles().get(0)
-rightMuscle = modeling.Millard2012EquilibriumMuscle.safeDownCast(rightMuscleBase)
-print(rightMuscle.getName())
+def alphaCom(num):
+    newMuscle.set_pennation_angle_at_optimal(float(num))
+    print("angle: " + str(newMuscle.get_pennation_angle_at_optimal()))
 
-# Load user left muscle
-leftModelPath = utils.FileUtils.getInstance().browseForFilename(".osim",
-   "Select the controls XML file.", 1)
-leftModel = modeling.Model(leftModelPath)
-leftModel.initSystem();
+def actCom(num):
+    diff = deAct.get() - float(num)
+    if diff < 0.03:
+        setter = deAct.get() + (0.03 - diff)
+        scaleDeAct.set(setter)
+    if diff > 0.04:
+        setter = deAct.get() - (diff - 0.04)
+        scaleDeAct.set(setter)
+    newMuscle.set_activation_time_constant(float(num))
+    print("activation time constant: " + str(newMuscle.get_activation_time_constant()))
+    
+def deActCom(num):
+    diff = float(num) - act.get()
+    if diff < 0.03:
+        setter = act.get() - (0.03 - diff)
+        scaleAct.set(setter)
+    if diff > 0.04:
+        setter = act.get() + (diff - 0.04)
+        scaleAct.set(setter)
+    newMuscle.set_deactivation_time_constant(float(num))
+    print("deactivation time constant: " + str(newMuscle.get_deactivation_time_constant()))
+    
+def areaCom(num):
+    area = float(num)
+    fibLen = lo.get()
+    vmtest = area*fibLen
+    if vmtest > 1e-4:
+        fibTester = 1e-4/area
+        if (fibTester >= 0.05) & (fibTester <= 0.2):
+            scaleLo.set(fibTester)
+        else:
+            if fibTester > 0.2:
+                scaleLo.set(0.2)
+            else:
+                scaleLo.set(0.05)
+    force = 350000*area
+    scaleFo.set(force)
+    # idk what to put for the transferMuscleProperties for area
 
-# Grab user for the left muscle (assumed naming convention is <user>_<file>.<type>)
-leftModelFname = string.split( leftModelPath, '\\' )[-1];
-leftModelUser = string.split( leftModelFname, '_' )[0];
-print( leftModelUser )
+def forceCom(num):
+    force = float(num)
+    fibLen = lo.get()
+    maxV = vMax.get()
+    power = force*fibLen*maxV
+    if power > 175.0:
+        vTester = 175.0/(force*fibLen)
+        if (vTester >= 2.0) & (vTester <= 10.0):
+            scaleVmax.set(vTester)
+        else:
+            scaleVmax.set(2)
+            fibLenSetter = 175/(force*2)
+            scaleLo.set(fibLenSetter)
+    area = force/350000
+    scaleAo.set(area)
+    newMuscle.set_max_isometric_force(float(num))
+    print("maximum isometric force: " + str(newMuscle.get_max_isometric_force()))
 
-# User should have muscle in the LEFT
-userLeftMuscleBase = leftModel.getMuscles().get(1)
-userLeftMuscle = modeling.Millard2012EquilibriumMuscle.safeDownCast(userLeftMuscleBase)
-print(userLeftMuscle.getName())
+def maxVelCom(num):
+    vel = float(num)
+    force = fo.get()
+    fibLen = lo.get()
+    if vel*fibLen*force > 175:
+        fTester = 175/(fibLen*vel)
+        if (fTester < 1750) & (fTester > 87.5):
+            scaleFo.set(fTester)
+        else:
+            force = 87.5
+            scaleFo.set(87.5)
+            scaleLo.set(175/(force*vel))
+    newMuscle.set_max_contraction_velocity(float(num))
+    print("maximum contraction velocity: " + str(newMuscle.get_max_contraction_velocity()))
 
-# Get new left muscle to copy over parameters
-leftMuscleBase = newModel.getMuscles().get(1)
-leftMuscle = modeling.Millard2012EquilibriumMuscle.safeDownCast(leftMuscleBase)
-print(leftMuscle.getName())
+def fibLenCom(num):
+    fibLen = float(num)
+    slackLen = ls.get()
+    force = fo.get()
+    maxV = vMax.get()
+    area = Ao.get()
 
-# Function for transfering properties...
-def transferMuscleProperties( userMuscle, newMuscle, userName ):
+    if force*maxV*fibLen > 175:
+        fTester = 175/(fibLen*maxV)
+        if (fTester > 87.5) & (fTester < 1750):
+            scaleFo.set(fTester)
+        else:
+            scaleFo.set(87.5)
+            maxV = 175/(87.5*fibLen)
+            scaleVmax.set(maxV)
+    sum  =  fibLen + slackLen
+    if sum > 0.45:
+        diff = sum - 0.45
+        setter = slackLen - diff
+        scaleLs.set(setter)
+    elif sum < 0.15:
+        diff  =  0.15 - sum
+        setter = slackLen + diff
+        scaleLs.set(setter)
 
-	# Set new max isometric force
-	newMuscle.set_max_isometric_force( userMuscle.get_max_isometric_force() )
-	
-	# Set new optimal fiber length
-	newMuscle.set_optimal_fiber_length( userMuscle.get_optimal_fiber_length() )
-	
-	# Set new max contraction velocity
-	newMuscle.set_max_contraction_velocity( userMuscle.get_max_contraction_velocity() )
-	
-	# Set new tendon slack length
-	newMuscle.set_tendon_slack_length( userMuscle.get_tendon_slack_length() )
-	
-	# Set new pennation angle
-	newMuscle.set_pennation_angle_at_optimal( userMuscle.get_pennation_angle_at_optimal() )
-	
-	# Set new activation time constant
-	newMuscle.set_activation_time_constant( userMuscle.get_activation_time_constant() )
-	
-	# Set new deactivation time constant
-	newMuscle.set_deactivation_time_constant( userMuscle.get_deactivation_time_constant() )
-	
-	# Set z-position of muscle on ground
-	blockLoc = newMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2);
-	
-	# Left muscle
-	if (blockLoc > 0):
-		groundLoc = blockLoc + userMuscle.get_optimal_fiber_length() + userMuscle.get_tendon_slack_length()
+    if area*fibLen > 1e-4:
+        setter = 1e-4/fibLen
+        scaleAo.set(setter)
+    setter = float(lo.get()) + float(ls.get())
+    labelTotLen.configure(text="distance between origin and attachment: %0.2f" % setter)
+    newMuscle.set_optimal_fiber_length(float(num))
+    blockLoc = newMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
+    # Left muscle
+    if blockLoc > 0:
+		groundLoc = blockLoc + fibLen + slackLen
 	# Right muscle
-	else:
-		groundLoc = blockLoc - userMuscle.get_optimal_fiber_length() - userMuscle.get_tendon_slack_length()
+    else:
+        groundLoc = blockLoc - fibLen - slackLen
 	
 	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, [0,0.05,groundLoc])
+    print("optimal fiber length: " + str(newMuscle.get_optimal_fiber_length()))
+
+def slackLenCom(num):
+    slackLen = float(num)
+    fibLen = lo.get()
+    totLen = fibLen + slackLen
+    if totLen > 0.45:
+        diff = totLen - 0.45
+        setter = fibLen - diff
+        scaleLo.set(setter)
+    elif totLen < 0.15:
+        diff = 0.15 - totLen
+        setter = diff + fibLen
+        scaleLo.set(setter)
+    setter = float(lo.get()) + float(ls.get())
+    labelTotLen.configure(text = "distance between origin and attachment: %0.2f" %setter)
+    newMuscle.set_tendon_slack_length(float(num))
+    blockLoc = newMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
+    # Left muscle
+    if blockLoc > 0:
+		groundLoc = blockLoc + fibLen + slackLen
+	# Right muscle
+    else:
+        groundLoc = blockLoc - fibLen - slackLen
 	
-	# Name the muscle after the user
-	newMuscle.setName(userName)
+	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, [0,0.05,groundLoc])
+    print("tendon slack length: " + str(newMuscle.get_tendon_slack_length()))
 
-# Transfer properties!
-transferMuscleProperties(userRightMuscle, rightMuscle, rightModelUser)
-transferMuscleProperties(userLeftMuscle, leftMuscle, leftModelUser)
 
-# Save model
-modelName = string.join([rightModelUser, '_', leftModelUser, '_Tug_of_War_Millard.osim'], '');
-#newModel.print(modelName);
 
-# COMBINE EXCITATIONS
-#--------------------
-#
-# Takes excitation profiles from both users and combines them.
-# Note, I gave up trying to do this in opensim and went with
-# standard file io methods instead.
+Label(root, text = "Angle in degrees: ").pack()
+scaleAlpha = Scale(root, variable = alpha, orient = HORIZONTAL, from_ = 0, to = 30, command = alphaCom)
+scaleAlpha.pack()
+scaleAlpha.set(15)
 
-# Load right user control
-rightControlFpath = utils.FileUtils.getInstance().browseForFilename(".xml",
-    "Select the controls XML file.", 1)
+Label(root, text = "Total excitation: ").pack()
+scaleUt = Scale(root, variable = ut, orient = HORIZONTAL,  from_ = 0, to = 0.5, resolution = 0.05)
+scaleUt.pack()
+scaleUt = 0.25
 
-# Load left user control
-leftControlFpath = utils.FileUtils.getInstance().browseForFilename(".xml",
-    "Select the controls XML file.", 1)
+actT = Label(root, text = "Activation time constant: ")
+actT.pack()
+scaleAct = Scale(root, variable = act, orient = HORIZONTAL,  from_ = 0.01, to = 0.02, resolution = 0.0005, command = actCom)
+scaleAct.pack()
+scaleAct.set(0.015)
 
-# Ensure same users
-rightControlFname = string.split( rightControlFpath, '\\' )[-1];
-rightControlUser = string.split( rightControlFname, '_' )[0];
-assert( (rightControlUser in rightModelUser) and (rightModelUser in rightControlUser) )
-print( rightControlUser )
+deActT = Label(root, text = "Deactivation time constant: ")
+deActT.pack()
+scaleDeAct = Scale(root, variable = deAct, orient = HORIZONTAL, from_ = 0.04, to = 0.06, resolution = 0.0005, command = deActCom)
+scaleDeAct.pack()
+scaleDeAct.set(0.05)
 
-leftControlFname = string.split( leftControlFpath, '\\' )[-1];
-leftControlUser = string.split( leftControlFname, '_' )[0];
-assert( (leftControlUser in leftModelUser) and (leftModelUser in leftControlUser) )
-print( leftControlUser )
+#the constraint does not describe an upper limit for the area
+AoT = Label(root, text = "Area of muscle: ").pack()
+scaleAo = Scale(root, variable = Ao, orient = HORIZONTAL, from_ = 0.00025, to = 0.005, resolution = 0.00005, command = areaCom)
+scaleAo.pack()
+scaleAo.set(0.002625)
 
-newControlFile = open(string.join([rightModelUser,'_',leftModelUser,'_Tug_of_War_Millard_control.xml'],''), 'w')
+#also lower and upper limits are not defined
+forceT = Label(root, text = "Maximum isometric muscle fiber force: ").pack()
+scaleFo = Scale(root, variable = fo, orient = HORIZONTAL, from_ = 87.5, to = 1750, resolution = 0.5, command = forceCom)
+scaleFo.pack()
+scaleFo.set(918)
 
-# Header
-newControlFile.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
-newControlFile.write('<OpenSimDocument Version="30000">\n')
-newControlFile.write('\t<ControlSet name="Control Set">\n')
-newControlFile.write('\t\t<objects>\n')
+loT = Label(root, text = "Optimal muscle fiber: ")
+loT.pack()
+scaleLo = Scale(root, variable = lo, orient = HORIZONTAL, from_ = 0.05, to = 0.2, resolution = 0.01, command = fibLenCom)
+scaleLo.pack()
+scaleLo.set(0.1)
 
-# Read in muscle from each file
-rightControlFile = open(rightControlFpath,'r')
-ll = rightControlFile.readline()
-while not ('LeftMuscle' in ll):
-	ll = rightControlFile.readline()
-	
-newControlFile.write( string.join(['\t\t\t<ControlLinear name="',rightControlUser,'">\n'],'') )
-ll = rightControlFile.readline()
-while not ('</ControlLinear>' in ll):
-	newControlFile.write( ll )
-	ll = rightControlFile.readline()
-newControlFile.write( ll )
+# upper limit is not specified
+slackT = Label(root, text = "Tendon slack length: ").pack()
+scaleLs = Scale(root, variable = ls, orient = HORIZONTAL, from_ = 0.1, to = 0.4, resolution = 0.01, command = slackLenCom)
+scaleLs.pack()
+scaleLs.set(0.25)
 
-leftControlFile = open(leftControlFpath,'r')
-leftControlFile.readline()
-while not ('LeftMuscle' in ll):
-	ll = leftControlFile.readline()
-	
-newControlFile.write( string.join(['\t\t\t<ControlLinear name="',leftControlUser,'">\n'],'') )
-ll = leftControlFile.readline()
-while not ('</ControlLinear>' in ll):
-	newControlFile.write( ll )
-	ll = leftControlFile.readline()
-newControlFile.write( ll )
+vMaxT = Label(root, text = "Maximum contraction velocity: ").pack()
+scaleVmax = Scale(root, variable = vMax, orient = HORIZONTAL, from_ = 2, to = 10, command = maxVelCom)
+scaleVmax.pack()
+scaleVmax.set(6)
 
-newControlFile.write('\t\t</objects>\n')
-newControlFile.write('\t\t<groups />\n')
-newControlFile.write('\t</ControlSet>\n')
-newControlFile.write('</OpenSimDocument>\n')
+labelVm = Label(root, text = "Muscle Volume (cm^3): " + str(vm*1e6))
+labelVm.pack()
 
-newControlFile.close()
-leftControlFile.close()
-rightControlFile.close()
 
-# INITIAL STATES FILE
-#--------------------
-#
-# Same thing, gave up trying to OpenSim it and just doing python file io
+labelTotLen = Label(root, text = "distance between origin and attachment: " + str(lMT))
+labelTotLen.pack()
 
-newStatesFile = open(string.join([rightModelUser,'_',leftModelUser,'_Tug_of_War_Millard_states.sto'],''),'w')
-
-newStatesFile.write(string.join([rightModelUser,'_',leftModelUser,'_Tug_of_War_Millard_states\n'],''))
-newStatesFile.write('version=1\n')
-newStatesFile.write('nRows=1\n')
-newStatesFile.write('nColumns=7\n')
-newStatesFile.write('inDegrees=no\n')
-newStatesFile.write('endheader\n')
-
-# Header
-newStatesFile.write('time\t')
-newStatesFile.write('block_tz\t')
-newStatesFile.write('block_tz_u\t')
-newStatesFile.write(string.join([rightModelUser,'.activation\t'],''))
-newStatesFile.write(string.join([rightModelUser,'.fiber_length\t'],''))
-newStatesFile.write(string.join([leftModelUser,'.activation\t'],''))
-newStatesFile.write(string.join([leftModelUser,'.fiber_length\n'],''))
-
-# States
-newStatesFile.write('0\t')
-newStatesFile.write('0\t')
-newStatesFile.write('0\t')
-newStatesFile.write('0.01\t')
-newStatesFile.write(string.join([str(rightMuscle.get_optimal_fiber_length()), '\t'],''))
-newStatesFile.write('0.01\t')
-newStatesFile.write(string.join([str(leftMuscle.get_optimal_fiber_length()), '\t'],''))
-
-newStatesFile.close()
-
-# FORWARD TOOL SETUP
-#-------------------
-#
-# More io!
-
-newFWDFile = open(string.join([rightModelUser,'_',leftModelUser,'_fwd_setup.xml'],''),'w')
+newFWDFile = open("_FWD_dynamics.xml",'w')
 
 newFWDFile.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
 newFWDFile.write('<OpenSimDocument Version="30000">\n')
-newFWDFile.write(string.join(['\t<ForwardTool name="', rightModelUser, '_', leftModelUser, '">\n'],''))
 newFWDFile.write('\t\t<!--Name of the .osim file used to construct a model.-->\n')
 newFWDFile.write('\t\t<model_file />\n')
 newFWDFile.write('\t\t<!--Replace the model\'s force set with sets specified in <force_set_files>? If false, the force set is appended to.-->\n')
@@ -282,7 +297,6 @@ newFWDFile.write('\t\t<ControllerSet name="Controllers">\n')
 newFWDFile.write('\t\t\t<objects>\n')
 newFWDFile.write('\t\t\t\t<ControlSetController>\n')
 newFWDFile.write('\t\t\t\t\t<!--A Storage (.sto) or an XML control nodes file containing the controls for this controlSet.-->\n')
-newFWDFile.write(string.join(['\t\t\t\t\t<controls_file>',rightModelUser,'_',leftModelUser,'_Tug_of_War_Millard_control.xml</controls_file>\n'],''))
 newFWDFile.write('\t\t\t\t</ControlSetController>\n')
 newFWDFile.write('\t\t\t</objects>\n')
 newFWDFile.write('\t\t\t<groups />\n')
@@ -290,7 +304,6 @@ newFWDFile.write('\t\t</ControllerSet>\n')
 newFWDFile.write('\t\t<!--XML file (.xml) containing the forces applied to the model as ExternalLoads.-->\n')
 newFWDFile.write('\t\t<external_loads_file />\n')
 newFWDFile.write('\t\t<!--Storage file (.sto) containing the initial states for the forward simulation. This file often contains multiple rows of data, each row being a time-stamped array of states. The first column contains the time.  The rest of the columns contain the states in the order appropriate for the model. In a storage file, unlike a motion file (.mot), non-uniform time spacing is allowed.  If the user-specified initial time for a simulation does not correspond exactly to one of the time stamps in this file, inerpolation is NOT used because it is usually necessary to being a simulation from an exact set of states.  Instead, the closest earlier set of states is used. Having a states file that contains the entire trajectory of a simulations allows for corrective springs for perturbation analysis to be added.-->\n')
-newFWDFile.write(string.join(['\t\t<states_file>',rightModelUser,'_',leftModelUser,'_Tug_of_War_Millard_states.sto</states_file>\n'],''))
 newFWDFile.write('\t\t<!--Flag (true or false) indicating whether or not the integrator should use a particular time stepping.  If true, the time stepping is extracted from the initial states file.  In this situation, therefore, the initial states file must contain all the time steps in a simulation and be written out to high precision (usually 20 decimal places).  Setting this flag to true can be useful when reproducing a previous forward simulation with as little drift as possible.  If this flag is false, the integrator is left to determine its own time stepping.-->\n')
 newFWDFile.write('\t\t<use_specified_dt>false</use_specified_dt>\n')
 newFWDFile.write('\t</ForwardTool>\n')
@@ -298,10 +311,9 @@ newFWDFile.write('</OpenSimDocument>\n')
 
 newFWDFile.close()
 
-# RUN FORWARD SIMULATION
-#-----------------------
-#
-# Back to OpenSim!
-fwd_tool = modeling.ForwardTool(string.join([rightModelUser,'_',leftModelUser,'_fwd_setup.xml'],''))
-fwd_tool.setModel(newModel)
+fwd_tool = osim.ForwardTool("_FWD_dynamics.xml",'')
+fwd_tool.setModel(osim.Model("C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim"))
 fwd_tool.run()
+
+
+root.mainloop()
