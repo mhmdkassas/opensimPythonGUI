@@ -393,23 +393,31 @@ def draw_figure(canvas, figure, loc=(0, 0)):
     # which must be kept live or else the picture disappears
     return photo
 
+plotterButton = Button(root, text = "new plot", font = "Arial", fg = "darkgreen", bg = "ivory")
+plotterButton.pack()
+
 # Create a canvas
-w, h = 200, 200
+w, h = 300, 200
+#window = tk.Tk()
+#window.title("A figure in a canvas")
 canvas = tk.Canvas(root, width=w, height=h)
 canvas.pack()
 
 # Generate some example data
 X = timeLst
 Y = rightLst
-
+    
 # Create the figure we desire to add to an existing canvas
-fig = mpl.figure.Figure(figsize=(3.5, 2.5))
+fig = mpl.figure.Figure(figsize=(3, 2))
 ax = fig.add_axes([0, 0, 1, 1])
 ax.plot(X, Y)
 
 # Keep this handle alive, or else figure will disappear
-fig_x, fig_y = 0, 0
+fig_x, fig_y = 50, 0
 fig_photo = draw_figure(canvas, fig, loc=(fig_x, fig_y))
 fig_w, fig_h = fig_photo.width(), fig_photo.height()
+
+plotterButton = Button(root, text = "new plot", font = "Arial", fg = "darkgreen", bg = "ivory")
+plotterButton.pack()
 
 root.mainloop()
