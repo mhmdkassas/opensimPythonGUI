@@ -25,8 +25,16 @@
 # http://simtk-confluence.stanford.edu:8080/display/OpenSim/Designing+a+Muscle+for+a+Tug-of-War+Competition
 # This script only works with Millard muscles.
 
-import math # for pi
 import opensim as osim
+import matplotlib.pyplot as plt
+import re
+
+import matplotlib
+matplotlib.use('TkAgg')
+import numpy as np
+
+#from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+#from matplotlib.figure import Figure
 
 #PYTHON GUI CODE SECTION
 #--------------------
@@ -43,6 +51,7 @@ initState = newModel.initSystem()
 
 root = Tk()
 
+
 alpha = DoubleVar()
 act = DoubleVar()
 deAct = DoubleVar()
@@ -57,7 +66,7 @@ vMax = DoubleVar()
 
 def alphaCom(num):
     newMuscle.set_pennation_angle_at_optimal(float(num))
-    print("angle: " + str(newMuscle.get_pennation_angle_at_optimal()))
+    #print("angle: " + str(newMuscle.get_pennation_angle_at_optimal()))
 
 def actCom(num):
     diff = deAct.get() - float(num)
@@ -68,7 +77,7 @@ def actCom(num):
         setter = deAct.get() - (diff - 0.04)
         scaleDeAct.set(setter)
     newMuscle.set_activation_time_constant(float(num))
-    print("activation time constant: " + str(newMuscle.get_activation_time_constant()))
+    #print("activation time constant: " + str(newMuscle.get_activation_time_constant()))
     
 def deActCom(num):
     diff = float(num) - act.get()
@@ -79,7 +88,7 @@ def deActCom(num):
         setter = act.get() + (diff - 0.04)
         scaleAct.set(setter)
     newMuscle.set_deactivation_time_constant(float(num))
-    print("deactivation time constant: " + str(newMuscle.get_deactivation_time_constant()))
+    #print("deactivation time constant: " + str(newMuscle.get_deactivation_time_constant()))
     
 def areaCom(num):
     area = float(num)
@@ -114,7 +123,7 @@ def forceCom(num):
     area = force/350000
     scaleAo.set(area)
     newMuscle.set_max_isometric_force(float(num))
-    print("maximum isometric force: " + str(newMuscle.get_max_isometric_force()))
+    #print("maximum isometric force: " + str(newMuscle.get_max_isometric_force()))
 
 def maxVelCom(num):
     vel = float(num)
@@ -129,7 +138,7 @@ def maxVelCom(num):
             scaleFo.set(87.5)
             scaleLo.set(175/(force*vel))
     newMuscle.set_max_contraction_velocity(float(num))
-    print("maximum contraction velocity: " + str(newMuscle.get_max_contraction_velocity()))
+    #print("maximum contraction velocity: " + str(newMuscle.get_max_contraction_velocity()))
 
 def fibLenCom(num):
     fibLen = float(num)
@@ -169,9 +178,9 @@ def fibLenCom(num):
 	# Right muscle
     else:
         groundLoc = blockLoc - fibLen - slackLen
-	
-	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, [0,0.05,groundLoc])
-    print("optimal fiber length: " + str(newMuscle.get_optimal_fiber_length()))
+	vector = osim.Vec3(0, 0.5, groundLoc)
+	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState,vector)
+    #print("optimal fiber length: " + str(newMuscle.get_optimal_fiber_length()))
 
 def slackLenCom(num):
     slackLen = float(num)
@@ -195,9 +204,15 @@ def slackLenCom(num):
 	# Right muscle
     else:
         groundLoc = blockLoc - fibLen - slackLen
-	
-	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, [0,0.05,groundLoc])
-    print("tendon slack length: " + str(newMuscle.get_tendon_slack_length()))
+	vector = osim.Vec3(0, 0.5, groundLoc)
+	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
+    #print("tendon slack length: " + str(newMuscle.get_tendon_slack_length()))
+    
+def file_len(fname):
+    count = 0
+    for line in fname:
+        count+=1
+    return count
 
 
 
@@ -311,9 +326,90 @@ newFWDFile.write('</OpenSimDocument>\n')
 
 newFWDFile.close()
 
-fwd_tool = osim.ForwardTool("_FWD_dynamics.xml",'')
-fwd_tool.setModel(osim.Model("C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim"))
-fwd_tool.run()
 
+reporter = osim.ForceReporter(newModel)
+newModel.addAnalysis(reporter)
+fwd_tool = osim.ForwardTool()
+fwd_tool.setControlsFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_Controls.xml")
+fwd_tool.setStatesFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto")
+fwd_tool.setModel(newModel)
+
+button = Button(root, text = "GO!", command = fwd_tool.run(), font = "Arial", fg = "darkgreen", bg = "ivory")
+button.pack()
+
+timeLst = []
+rightLst = []
+leftLst = []
+opener =  open("C:\Users\mhmdk\Desktop\Co-op files\co-op semester 1\Python Code\_ForceReporter_forces.sto")
+count = 0
+for line in opener:
+    # line 15 is the line where the results start
+    if count >=15: 
+        temp = re.split("\t", line)
+        rawTime = temp[0]
+        rawRight = temp[1]
+        rawLeft = temp[2]
+        
+        time = rawTime.strip("' ,\n\t")
+        right = rawRight.strip("' ,\n\t")
+        left = rawLeft.strip("' ,\n\t")
+        
+        timeLst.append(float(time))
+        rightLst.append(float(right))
+        leftLst.append(float(left))
+        
+    count+=1
+opener.close()   
+
+import matplotlib as mpl
+import numpy as np
+import sys
+if sys.version_info[0] < 3:
+    import Tkinter as tk
+else:
+    import tkinter as tk
+import matplotlib.backends.tkagg as tkagg
+from matplotlib.backends.backend_agg import FigureCanvasAgg
+
+
+def draw_figure(canvas, figure, loc=(0, 0)):
+    """ Draw a matplotlib figure onto a Tk canvas
+
+    loc: location of top-left corner of figure on canvas in pixels.
+    Inspired by matplotlib source: lib/matplotlib/backends/backend_tkagg.py
+    """
+    figure_canvas_agg = FigureCanvasAgg(figure)
+    figure_canvas_agg.draw()
+    figure_x, figure_y, figure_w, figure_h = figure.bbox.bounds
+    figure_w, figure_h = int(figure_w), int(figure_h)
+    photo = tk.PhotoImage(master=canvas, width=figure_w, height=figure_h)
+    # Position: convert from top-left anchor to center anchor
+    canvas.create_image(loc[0] + figure_w/2, loc[1] + figure_h/2, image=photo)
+
+    # Unfortunately, there's no accessor for the pointer to the native renderer
+    tkagg.blit(photo, figure_canvas_agg.get_renderer()._renderer, colormode=2)
+
+    # Return a handle which contains a reference to the photo object
+    # which must be kept live or else the picture disappears
+    return photo
+
+# Create a canvas
+w, h = 200, 200
+canvas = tk.Canvas(root, width=w, height=h)
+canvas.pack()
+
+# Generate some example data
+X = timeLst
+Y = rightLst
+
+# Create the figure we desire to add to an existing canvas
+fig = mpl.figure.Figure(figsize=(3.5, 2.5))
+ax = fig.add_axes([0, 0, 1, 1])
+ax.plot(X, Y)
+
+# Keep this handle alive, or else figure will disappear
+fig_x, fig_y = 0, 0
+fig_photo = draw_figure(canvas, fig, loc=(fig_x, fig_y))
+fig_w, fig_h = fig_photo.width(), fig_photo.height()
 
 root.mainloop()

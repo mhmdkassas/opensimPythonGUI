@@ -1,2 +1,6029 @@
 Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
 Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+
+ERROR- A model has not been set.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=120 nc=7)
+Found 120 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=115 nc=7)
+Found 115 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+Running tool .
+No external loads will be applied (external loads file not specified).
+Running tool .
+No external loads will be applied (external loads file not specified).
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=115 nc=7)
+Found 115 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=115 nc=7)
+Found 115 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_states.sto (nr=115 nc=7)
+Found 115 state vectors with time stamps ranging
+from 0 to 1.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_initial_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_initial_states.sto (nr=1 nc=7)
+Column RightMuscle.activation not found in formStateStorage, assuming 0.
+Column RightMuscle.fiber_length not found in formStateStorage, assuming 0.
+Column LeftMuscle.activation not found in formStateStorage, assuming 0.
+Column LeftMuscle.fiber_length not found in formStateStorage, assuming 0.
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.xml.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.xml (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.xml.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.xml (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
+Loaded model Tug_of_War_Millard from file C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim
+Running tool .
+No external loads will be applied (external loads file not specified).
+
+Loading states from file C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto.
+Storage: file=C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto (nr=1 nc=7)
+Found 1 state vectors with time stamps ranging
+from 0 to 0.
+MODEL: Tug_of_War_Millard
+
+ANALYSES (1)
+analysis[0] = ForceReporter
+
+BODIES (2)
+body[0] = ground (mass: 0) (inertia: 0 0 0 0 0 0 0 0 0)
+body[1] = block (mass: 20) (inertia: 0.133333 0 0 0 0.133333 0 0 0 0.133333)
+
+ACTUATORS (2)
+actuator[0] = RightMuscle
+actuator[1] = LeftMuscle
+numStates = 6
+numCoordinates = 1
+numSpeeds = 1
+numActuators = 2
+numBodies = 2
+numConstraints = 0
+numProbes = 0
+
+STATES (6)
+y[0] = block_tz
+y[1] = block_tz_u
+y[2] = RightMuscle.activation
+y[3] = RightMuscle.fiber_length
+y[4] = LeftMuscle.activation
+y[5] = LeftMuscle.fiber_length
+
+
+Integrating from 0 to 1
+Printing results of investigation  to ./.
