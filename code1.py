@@ -33,8 +33,15 @@ import matplotlib
 matplotlib.use('TkAgg')
 import numpy as np
 
-#from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-#from matplotlib.figure import Figure
+import matplotlib as mpl
+import numpy as np
+import sys
+if sys.version_info[0] < 3:
+    import Tkinter as tk
+else:
+    import tkinter as tk
+import matplotlib.backends.tkagg as tkagg
+from matplotlib.backends.backend_agg import FigureCanvasAgg
 
 #PYTHON GUI CODE SECTION
 #--------------------
@@ -43,13 +50,16 @@ from tkinter import *
 
 #ALL units are SI
 
+#loads the model from openSim
 newModel = osim.Model("C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim")
 newMuscleBase = newModel.getMuscles().get(0)
 newMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newMuscleBase)
 initState = newModel.initSystem()
 
+
+#creates a GUI window
 root = Tk()
-root.title("paramter changer window")
+root.title("paramter window")
 
 
 alpha = DoubleVar()
@@ -65,10 +75,14 @@ lMT = float(ls.get())+ float(lo.get())
 vMax = DoubleVar()
 global_figure_counter = 0
 
+#CALLBACK FUNCTIONS TO CHANGE PARAMETERS FROM SLIDERS
+#____________________________________________________
+
+#pennetation angle callback
 def alphaCom(num):
     newMuscle.set_pennation_angle_at_optimal(float(num))
     
-
+#activation time constant call back
 def actCom(num):
     diff = deAct.get() - float(num)
     if diff < 0.03:
@@ -79,6 +93,7 @@ def actCom(num):
         scaleDeAct.set(setter)
     newMuscle.set_activation_time_constant(float(num))
     
+#deactivation time constant call back
 def deActCom(num):
     diff = float(num) - act.get()
     if diff < 0.03:
@@ -88,8 +103,8 @@ def deActCom(num):
         setter = act.get() + (diff - 0.04)
         scaleAct.set(setter)
     newMuscle.set_deactivation_time_constant(float(num))
-    #print("deactivation time constant: " + str(newMuscle.get_deactivation_time_constant()))
-    
+
+#area call back
 def areaCom(num):
     area = float(num)
     fibLen = lo.get()
@@ -106,8 +121,8 @@ def areaCom(num):
     force = 350000*area
     scaleFo.set(force)
     newModel.updConstraintSet()
-    # idk what to put for the transferMuscleProperties for area
 
+#isometric force call back
 def forceCom(num):
     force = float(num)
     fibLen = lo.get()
@@ -124,8 +139,8 @@ def forceCom(num):
     area = force/350000
     scaleAo.set(area)
     newMuscle.set_max_isometric_force(float(num))
-    #print("maximum isometric force: " + str(newMuscle.get_max_isometric_force()))
 
+#maximum contraction velocity call back
 def maxVelCom(num):
     vel = float(num)
     force = fo.get()
@@ -139,8 +154,8 @@ def maxVelCom(num):
             scaleFo.set(87.5)
             scaleLo.set(175/(force*vel))
     newMuscle.set_max_contraction_velocity(float(num))
-    #print("maximum contraction velocity: " + str(newMuscle.get_max_contraction_velocity()))
 
+#optimal fiber length call back
 def fibLenCom(num):
     fibLen = float(num)
     slackLen = ls.get()
@@ -181,8 +196,8 @@ def fibLenCom(num):
         groundLoc = blockLoc - fibLen - slackLen
 	vector = osim.Vec3(0, 0.05, groundLoc)
 	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState,vector)
-    #print("optimal fiber length: " + str(newMuscle.get_optimal_fiber_length()))
 
+#tendon slack length call back
 def slackLenCom(num):
     slackLen = float(num)
     fibLen = lo.get()
@@ -198,23 +213,12 @@ def slackLenCom(num):
     setter = float(lo.get()) + float(ls.get())
     labelTotLen.configure(text = "distance between origin and attachment: %0.2f" %setter)
     newMuscle.set_tendon_slack_length(float(num))
-    #print("tendon slack length: " + str(newMuscle.get_tendon_slack_length()))
     
-#def file_len(fname):
-#    count = newMuscle.set_tendon_slack_length(float(num))
-#    blockLoc = newMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
-#    # Left muscle
-#    if blockLoc > 0:
-#		groundLoc = blockLoc + fibLen + slackLen
-#	# Right muscle
-#    else:
-#        groundLoc = blockLoc - fibLen - slackLen
-#	vector = osim.Vec3(0, 0.05, groundLoc)
-#	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
-#    for line in fname:
-#        count+=1
-#    return count
+#____________________________________________________
 
+
+#THOSE CREATE THE SLIDERS AND THEIR CORRESPONDING LABELS
+#____________________________________________________
 
 Label(root, text = "Angle in degrees: ").pack()
 scaleAlpha = Scale(root, variable = alpha, orient = HORIZONTAL, from_ = 0, to = 30, command = alphaCom)
@@ -274,6 +278,11 @@ labelVm.pack()
 labelTotLen = Label(root, text = "distance between origin and attachment: " + str(lMT))
 labelTotLen.pack()
 
+#____________________________________________________
+
+#FILE I/O TO CREATE A FORWARDS DYNAMICS FILE
+#____________________________________________________
+
 newFWDFile = open("_FWD_dynamics.xml",'w')
 
 newFWDFile.write('<?xml version="1.0" encoding="UTF-8" ?>\n')
@@ -326,7 +335,14 @@ newFWDFile.write('</OpenSimDocument>\n')
 
 newFWDFile.close()
     
+#____________________________________________________
+
+
+#CALLBACK TO UPDATE DATA AND PLOT ON GUI
+#____________________________________________________
 def callBack(): 
+    
+    #makes a copy of the original model
     newModel.printToXML("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
     newVersionModel = osim.Model("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
     newVersionBase = newVersionModel.getMuscles().get(0)
@@ -340,21 +356,15 @@ def callBack():
     # Left muscle
     if blockLoc > 0:
         groundLoc = blockLoc + fibLen + slackLen
-        print("fibLen: " + str(fibLen))
-        print("slackLen: " + str(slackLen))
-        print("blockLoc: " + str(blockLoc))
 	# Right muscle
     else:
         groundLoc = blockLoc - fibLen - slackLen
 	vector = osim.Vec3(0, 0.05, groundLoc)
-    print(groundLoc)
-    print("fibLen: " + str(fibLen))
-    print("slackLen: " + str(slackLen))
-    print("blockLoc: " + str(blockLoc))
     newVersionMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
     
     newVersionModel.initSystem()
     
+    #creates a new states file that corresponds to the sliders
     new_states_file = open("corrected_tug_of_war_states.sto", "w")
 
     new_states_file.write("Tug_of_War_Competition\n")
@@ -367,6 +377,7 @@ def callBack():
     
     new_states_file.close()
     
+    #creates rhe forward tool and force reporter
     reporter = osim.ForceReporter(newVersionModel)
     newVersionModel.addAnalysis(reporter)
     fwd_tool = osim.ForwardTool()
@@ -379,6 +390,9 @@ def callBack():
 button = Button(root, text = "GO!", command = callBack, font = "Verdana 9 bold", relief = RAISED, bg = "darkgreen", fg = "ivory")
 button.pack()
 
+
+#THIS EXTRACTS VALUES FROM THE FORWARD DYNAMICS FILE
+#____________________________________________________
 timeLst = []
 rightLst = []
 leftLst = []
@@ -403,17 +417,6 @@ for line in opener:
     count+=1
 opener.close()   
 
-import matplotlib as mpl
-import numpy as np
-import sys
-if sys.version_info[0] < 3:
-    import Tkinter as tk
-else:
-    import tkinter as tk
-import matplotlib.backends.tkagg as tkagg
-from matplotlib.backends.backend_agg import FigureCanvasAgg
-
-
 def draw_figure(canvas, figure, loc=(0, 0)):
     """ Draw a matplotlib figure onto a Tk canvas
 
@@ -435,6 +438,8 @@ def draw_figure(canvas, figure, loc=(0, 0)):
     # which must be kept live or else the picture disappears
     return photo
 
+#THIS UPDATES THE X AND Y VALUES OF THE PLOT
+#____________________________________________________
 def updater():
     timeLst = []
     rightLst = []
