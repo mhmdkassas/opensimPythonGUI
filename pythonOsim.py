@@ -5,19 +5,14 @@ Created on Fri Jan 18 10:50:55 2019
 @author: mhmdk
 """
 
-import opensim as osim
-from tkinter import*
+new_states_file = open("corrected_tug_of_war_states.sto", "w")
 
-newModel = osim.Model("C:/OpenSim 3.3/Models/Tug_of_War/Tug_of_War_Millard.osim")
-newMuscleBase = newModel.getMuscles().get(0)
-newMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newMuscleBase)
-initState = newModel.initSystem()
+new_states_file.write("Tug_of_War_Competition\n")
+new_states_file.write("nRows = 1\n")
+new_states_file.write("nColumns = 7\n")
+new_states_file.write("inDegree = no\n")
+new_states_file.write("endheader\n")
+new_states_file.write("time\tblock_tz\tblock_tz_u\tRightMuscle.activation\tRightMuscle.fiber_length\tLeftMuscle.activation\tLeftMuscle.fiber_length\n")
+new_states_file.write("0\t0\t0\t0.01\t1\t0.01\t1")
 
-def main():
-    root = Tk()
-    
-    Label(root, text = "Angle in degrees: ").pack()
-    scaleAlpha = Scale(root, variable = alpha, orient = HORIZONTAL, from_ = 0, to = 30)
-    scaleAlpha.pack()
-    
-    root.close()
+new_states_file.close()

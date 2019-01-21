@@ -48,8 +48,8 @@ newMuscleBase = newModel.getMuscles().get(0)
 newMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newMuscleBase)
 initState = newModel.initSystem()
 
-
 root = Tk()
+root.title("paramter changer window")
 
 
 alpha = DoubleVar()
@@ -63,10 +63,11 @@ lo = DoubleVar()
 ls = DoubleVar()
 lMT = float(ls.get())+ float(lo.get())
 vMax = DoubleVar()
+global_figure_counter = 0
 
 def alphaCom(num):
     newMuscle.set_pennation_angle_at_optimal(float(num))
-    #print("angle: " + str(newMuscle.get_pennation_angle_at_optimal()))
+    
 
 def actCom(num):
     diff = deAct.get() - float(num)
@@ -77,7 +78,6 @@ def actCom(num):
         setter = deAct.get() - (diff - 0.04)
         scaleDeAct.set(setter)
     newMuscle.set_activation_time_constant(float(num))
-    #print("activation time constant: " + str(newMuscle.get_activation_time_constant()))
     
 def deActCom(num):
     diff = float(num) - act.get()
@@ -105,6 +105,7 @@ def areaCom(num):
                 scaleLo.set(0.05)
     force = 350000*area
     scaleFo.set(force)
+    newModel.updConstraintSet()
     # idk what to put for the transferMuscleProperties for area
 
 def forceCom(num):
@@ -178,7 +179,7 @@ def fibLenCom(num):
 	# Right muscle
     else:
         groundLoc = blockLoc - fibLen - slackLen
-	vector = osim.Vec3(0, 0.5, groundLoc)
+	vector = osim.Vec3(0, 0.05, groundLoc)
 	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState,vector)
     #print("optimal fiber length: " + str(newMuscle.get_optimal_fiber_length()))
 
@@ -197,29 +198,28 @@ def slackLenCom(num):
     setter = float(lo.get()) + float(ls.get())
     labelTotLen.configure(text = "distance between origin and attachment: %0.2f" %setter)
     newMuscle.set_tendon_slack_length(float(num))
-    blockLoc = newMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
-    # Left muscle
-    if blockLoc > 0:
-		groundLoc = blockLoc + fibLen + slackLen
-	# Right muscle
-    else:
-        groundLoc = blockLoc - fibLen - slackLen
-	vector = osim.Vec3(0, 0.5, groundLoc)
-	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
     #print("tendon slack length: " + str(newMuscle.get_tendon_slack_length()))
     
-def file_len(fname):
-    count = 0
-    for line in fname:
-        count+=1
-    return count
-
+#def file_len(fname):
+#    count = newMuscle.set_tendon_slack_length(float(num))
+#    blockLoc = newMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
+#    # Left muscle
+#    if blockLoc > 0:
+#		groundLoc = blockLoc + fibLen + slackLen
+#	# Right muscle
+#    else:
+#        groundLoc = blockLoc - fibLen - slackLen
+#	vector = osim.Vec3(0, 0.05, groundLoc)
+#	newMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
+#    for line in fname:
+#        count+=1
+#    return count
 
 
 Label(root, text = "Angle in degrees: ").pack()
 scaleAlpha = Scale(root, variable = alpha, orient = HORIZONTAL, from_ = 0, to = 30, command = alphaCom)
 scaleAlpha.pack()
-scaleAlpha.set(15)
+scaleAlpha.set(0.)
 
 Label(root, text = "Total excitation: ").pack()
 scaleUt = Scale(root, variable = ut, orient = HORIZONTAL,  from_ = 0, to = 0.5, resolution = 0.05)
@@ -325,16 +325,58 @@ newFWDFile.write('\t</ForwardTool>\n')
 newFWDFile.write('</OpenSimDocument>\n')
 
 newFWDFile.close()
+    
+def callBack(): 
+    newModel.printToXML("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
+    newVersionModel = osim.Model("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
+    newVersionBase = newVersionModel.getMuscles().get(0)
+    print(newVersionBase.getName())
+    newVersionMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newVersionBase)
+    
+    fibLen = float(lo.get())
+    slackLen = float(ls.get())
 
+    blockLoc = newVersionMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
+    # Left muscle
+    if blockLoc > 0:
+        groundLoc = blockLoc + fibLen + slackLen
+        print("fibLen: " + str(fibLen))
+        print("slackLen: " + str(slackLen))
+        print("blockLoc: " + str(blockLoc))
+	# Right muscle
+    else:
+        groundLoc = blockLoc - fibLen - slackLen
+	vector = osim.Vec3(0, 0.05, groundLoc)
+    print(groundLoc)
+    print("fibLen: " + str(fibLen))
+    print("slackLen: " + str(slackLen))
+    print("blockLoc: " + str(blockLoc))
+    newVersionMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
+    
+    newVersionModel.initSystem()
+    
+    new_states_file = open("corrected_tug_of_war_states.sto", "w")
 
-reporter = osim.ForceReporter(newModel)
-newModel.addAnalysis(reporter)
-fwd_tool = osim.ForwardTool()
-fwd_tool.setControlsFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_Controls.xml")
-fwd_tool.setStatesFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_corrected_states.sto")
-fwd_tool.setModel(newModel)
+    new_states_file.write("Tug_of_War_Competition\n")
+    new_states_file.write("nRows = 1\n")
+    new_states_file.write("nColumns = 7\n")
+    new_states_file.write("inDegree = no\n")
+    new_states_file.write("endheader\n")
+    new_states_file.write("time\tblock_tz\tblock_tz_u\tRightMuscle.activation\tRightMuscle.fiber_length\tLeftMuscle.activation\tLeftMuscle.fiber_length\n")
+    new_states_file.write("0\t0\t0\t0.01\t" + str(newVersionMuscle.get_optimal_fiber_length()) +"\t0.01\t0.1")
+    
+    new_states_file.close()
+    
+    reporter = osim.ForceReporter(newVersionModel)
+    newVersionModel.addAnalysis(reporter)
+    fwd_tool = osim.ForwardTool()
+    fwd_tool.setControlsFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_controls_corrected.xml")
+    fwd_tool.setStatesFileName("C:\Users\mhmdk\Desktop\Co-op files\co-op semester 1\Python Code\corrected_tug_of_war_states.sto")
+    fwd_tool.setModel(newVersionModel)
+    fwd_tool.run()
+    updater()
 
-button = Button(root, text = "GO!", command = fwd_tool.run(), font = "Arial", fg = "darkgreen", bg = "ivory")
+button = Button(root, text = "GO!", command = callBack, font = "Verdana 9 bold", relief = RAISED, bg = "darkgreen", fg = "ivory")
 button.pack()
 
 timeLst = []
@@ -344,7 +386,7 @@ opener =  open("C:\Users\mhmdk\Desktop\Co-op files\co-op semester 1\Python Code\
 count = 0
 for line in opener:
     # line 15 is the line where the results start
-    if count >=15: 
+    if count > 15: 
         temp = re.split("\t", line)
         rawTime = temp[0]
         rawRight = temp[1]
@@ -393,31 +435,59 @@ def draw_figure(canvas, figure, loc=(0, 0)):
     # which must be kept live or else the picture disappears
     return photo
 
-plotterButton = Button(root, text = "new plot", font = "Arial", fg = "darkgreen", bg = "ivory")
-plotterButton.pack()
-
-# Create a canvas
-w, h = 300, 200
-#window = tk.Tk()
-#window.title("A figure in a canvas")
-canvas = tk.Canvas(root, width=w, height=h)
-canvas.pack()
-
-# Generate some example data
-X = timeLst
-Y = rightLst
+def updater():
+    timeLst = []
+    rightLst = []
+    leftLst = []
+    opener =  open("C:\Users\mhmdk\Desktop\Co-op files\co-op semester 1\Python Code\_ForceReporter_forces.sto")
+    count = 0
+    for line in opener:
+        # line 15 is the line where the results start
+        if count > 15: 
+            temp = re.split("\t", line)
+            rawTime = temp[0]
+            rawRight = temp[1]
+            rawLeft = temp[2]
+            
+            time = rawTime.strip("' ,\n\t")
+            right = rawRight.strip("' ,\n\t")
+            left = rawLeft.strip("' ,\n\t")
+            
+            timeLst.append(float(time))
+            rightLst.append(float(right))
+            leftLst.append(float(left))
+            
+        count += 1
+    opener.close()
     
-# Create the figure we desire to add to an existing canvas
-fig = mpl.figure.Figure(figsize=(3, 2))
-ax = fig.add_axes([0, 0, 1, 1])
-ax.plot(X, Y)
-
-# Keep this handle alive, or else figure will disappear
-fig_x, fig_y = 50, 0
-fig_photo = draw_figure(canvas, fig, loc=(fig_x, fig_y))
-fig_w, fig_h = fig_photo.width(), fig_photo.height()
-
-plotterButton = Button(root, text = "new plot", font = "Arial", fg = "darkgreen", bg = "ivory")
-plotterButton.pack()
-
+    # Create a canvas
+    w, h = 500, 300
+    window = Tk()
+    window.title("plot")
+    window.config(background='white')
+    window.geometry("500x350")
+    canvas = tk.Canvas(window, width=w, height=h, bg = "white")
+    canvas.pack()
+    
+    # Generate some example data
+    X = timeLst
+    Y = rightLst
+        
+    # Create the figure we desire to add to an existing canvas
+    fig = mpl.figure.Figure(figsize=(4, 3))
+    ax = fig.add_axes([0, 0, 1, 1])
+#    ax.set_axis_label("Force vs. time")
+#    ax.set_axis_on()
+    ax.set_xlabel("X axis")
+    ax.set_ylabel("Y axis")
+    ax.grid()
+    ax.plot(X, Y, color = "red")
+    
+    # Keep this handle alive, or else figure will disappear
+    fig_x, fig_y = 50, 50
+    fig_photo = draw_figure(canvas, fig, loc=(fig_x, fig_y))
+    fig_w, fig_h = fig_photo.width(), fig_photo.height()
+    
+    window.mainloop()
+                
 root.mainloop()
