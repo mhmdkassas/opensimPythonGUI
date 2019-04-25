@@ -26,26 +26,29 @@
 # This script only works with Millard muscles.
 
 import opensim as osim
-import matplotlib.pyplot as plt
 import re
 
 import matplotlib
 matplotlib.use('TkAgg')
-import numpy as np
 
-import matplotlib as mpl
-import numpy as np
 import sys
 if sys.version_info[0] < 3:
     import Tkinter as tk
 else:
     import tkinter as tk
-import matplotlib.backends.tkagg as tkagg
-from matplotlib.backends.backend_agg import FigureCanvasAgg
+
+import matplotlib
+matplotlib.use('TkAgg')
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
+from Tkinter import *
 
 #PYTHON GUI CODE SECTION
 #--------------------
-
+try:
+    from tkinter import messagebox
+except:
+    import tkMessageBox as messagebox
 from tkinter import *
 
 #ALL units are SI
@@ -341,51 +344,53 @@ newFWDFile.close()
 #CALLBACK TO UPDATE DATA AND PLOT ON GUI
 #____________________________________________________
 def callBack(): 
+    try:
+        #makes a copy of the original model
+        newModel.printToXML("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
+        newVersionModel = osim.Model("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
+        newVersionBase = newVersionModel.getMuscles().get(0)
+        newVersionMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newVersionBase)
+        
+        fibLen = float(lo.get())
+        slackLen = float(ls.get())
     
-    #makes a copy of the original model
-    newModel.printToXML("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
-    newVersionModel = osim.Model("C:/Users/mhmdk/Desktop/Co-op files/co-op semester 1/Python Code/newVersion.osim")
-    newVersionBase = newVersionModel.getMuscles().get(0)
-    print(newVersionBase.getName())
-    newVersionMuscle = osim.Millard2012EquilibriumMuscle.safeDownCast(newVersionBase)
+        blockLoc = newVersionMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
+        # Left muscle
+        if blockLoc > 0:
+            groundLoc = blockLoc + fibLen + slackLen
+        #right muscle
+        else:
+            groundLoc = blockLoc - fibLen - slackLen
+        vector = osim.Vec3(0, 0.05, groundLoc)
+        newVersionMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
+        
+        newVersionModel.initSystem()
+        
+        #creates a new states file that corresponds to the sliders
+        new_states_file = open("corrected_tug_of_war_states.sto", "w")
     
-    fibLen = float(lo.get())
-    slackLen = float(ls.get())
-
-    blockLoc = newVersionMuscle.getGeometryPath().getPathPointSet().get(1).getLocation().get(2)
-    # Left muscle
-    if blockLoc > 0:
-        groundLoc = blockLoc + fibLen + slackLen
-	# Right muscle
-    else:
-        groundLoc = blockLoc - fibLen - slackLen
-	vector = osim.Vec3(0, 0.05, groundLoc)
-    newVersionMuscle.updGeometryPath().getPathPointSet().get(0).setLocation(initState, vector)
+        new_states_file.write("Tug_of_War_Competition\n")
+        new_states_file.write("nRows = 1\n")
+        new_states_file.write("nColumns = 7\n")
+        new_states_file.write("inDegree = no\n")
+        new_states_file.write("endheader\n")
+        new_states_file.write("time\tblock_tz\tblock_tz_u\tRightMuscle.activation\tRightMuscle.fiber_length\tLeftMuscle.activation\tLeftMuscle.fiber_length\n")
+        new_states_file.write("0\t0\t0\t0.01\t" + str(newVersionMuscle.get_optimal_fiber_length()) +"\t0.01\t0.1")
+        
+        new_states_file.close()
+        
+        #creates the forward tool and force reporter
+        reporter = osim.ForceReporter(newVersionModel)
+        newVersionModel.addAnalysis(reporter)
+        fwd_tool = osim.ForwardTool()
+        fwd_tool.setControlsFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_controls_corrected.xml")
+        fwd_tool.setStatesFileName("C:\Users\mhmdk\Desktop\Co-op files\co-op semester 1\Python Code\corrected_tug_of_war_states.sto")
+        fwd_tool.setModel(newVersionModel)
     
-    newVersionModel.initSystem()
-    
-    #creates a new states file that corresponds to the sliders
-    new_states_file = open("corrected_tug_of_war_states.sto", "w")
-
-    new_states_file.write("Tug_of_War_Competition\n")
-    new_states_file.write("nRows = 1\n")
-    new_states_file.write("nColumns = 7\n")
-    new_states_file.write("inDegree = no\n")
-    new_states_file.write("endheader\n")
-    new_states_file.write("time\tblock_tz\tblock_tz_u\tRightMuscle.activation\tRightMuscle.fiber_length\tLeftMuscle.activation\tLeftMuscle.fiber_length\n")
-    new_states_file.write("0\t0\t0\t0.01\t" + str(newVersionMuscle.get_optimal_fiber_length()) +"\t0.01\t0.1")
-    
-    new_states_file.close()
-    
-    #creates rhe forward tool and force reporter
-    reporter = osim.ForceReporter(newVersionModel)
-    newVersionModel.addAnalysis(reporter)
-    fwd_tool = osim.ForwardTool()
-    fwd_tool.setControlsFileName("C:\OpenSim 3.3\Models\Tug_of_War\Tug_of_War_Millard_controls_corrected.xml")
-    fwd_tool.setStatesFileName("C:\Users\mhmdk\Desktop\Co-op files\co-op semester 1\Python Code\corrected_tug_of_war_states.sto")
-    fwd_tool.setModel(newVersionModel)
-    fwd_tool.run()
-    updater()
+        fwd_tool.run()
+        updater()
+    except osim.OpenSimException:
+        messagebox.showwarning("Warning", "The parameter combination is physiologically impossible")
 
 button = Button(root, text = "GO!", command = callBack, font = "Verdana 9 bold", relief = RAISED, bg = "darkgreen", fg = "ivory")
 button.pack()
@@ -417,26 +422,6 @@ for line in opener:
     count+=1
 opener.close()   
 
-def draw_figure(canvas, figure, loc=(0, 0)):
-    """ Draw a matplotlib figure onto a Tk canvas
-
-    loc: location of top-left corner of figure on canvas in pixels.
-    Inspired by matplotlib source: lib/matplotlib/backends/backend_tkagg.py
-    """
-    figure_canvas_agg = FigureCanvasAgg(figure)
-    figure_canvas_agg.draw()
-    figure_x, figure_y, figure_w, figure_h = figure.bbox.bounds
-    figure_w, figure_h = int(figure_w), int(figure_h)
-    photo = tk.PhotoImage(master=canvas, width=figure_w, height=figure_h)
-    # Position: convert from top-left anchor to center anchor
-    canvas.create_image(loc[0] + figure_w/2, loc[1] + figure_h/2, image=photo)
-
-    # Unfortunately, there's no accessor for the pointer to the native renderer
-    tkagg.blit(photo, figure_canvas_agg.get_renderer()._renderer, colormode=2)
-
-    # Return a handle which contains a reference to the photo object
-    # which must be kept live or else the picture disappears
-    return photo
 
 #THIS UPDATES THE X AND Y VALUES OF THE PLOT
 #____________________________________________________
@@ -464,35 +449,31 @@ def updater():
             
         count += 1
     opener.close()
-    
-    # Create a canvas
-    w, h = 500, 300
-    window = Tk()
-    window.title("plot")
-    window.config(background='white')
-    window.geometry("500x350")
-    canvas = tk.Canvas(window, width=w, height=h, bg = "white")
-    canvas.pack()
+
     
     # Generate some example data
     X = timeLst
     Y = rightLst
         
-    # Create the figure we desire to add to an existing canvas
-    fig = mpl.figure.Figure(figsize=(4, 3))
-    ax = fig.add_axes([0, 0, 1, 1])
-#    ax.set_axis_label("Force vs. time")
-#    ax.set_axis_on()
-    ax.set_xlabel("X axis")
-    ax.set_ylabel("Y axis")
-    ax.grid()
-    ax.plot(X, Y, color = "red")
+
+    window= Tk()
+    window.title("Plot Window")
+
+    fig = Figure(figsize=(6,6))
+    a = fig.add_subplot(111)
+    a.plot(X, Y, color='blue')
     
-    # Keep this handle alive, or else figure will disappear
-    fig_x, fig_y = 50, 50
-    fig_photo = draw_figure(canvas, fig, loc=(fig_x, fig_y))
-    fig_w, fig_h = fig_photo.width(), fig_photo.height()
+    a.set_title ("Muscle Force vs. time", fontsize=16)
+    a.set_ylabel("Force (N)", fontsize=12)
+    a.set_xlabel("time (s)", fontsize=12)
     
+    canvas = FigureCanvasTkAgg(fig, master=window)
+    canvas.get_tk_widget().pack()
+    canvas.draw()
+
+
     window.mainloop()
-                
+
+    
+        
 root.mainloop()
